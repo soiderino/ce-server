@@ -21,7 +21,7 @@ fn main() {
     ])
     .expect("Could not create logger");
 
-    info!("Hello, world!");
+    info!("hi, sosal?");
 
     let rt = tokio::runtime::Runtime::new().unwrap();
     rt.block_on(async {
