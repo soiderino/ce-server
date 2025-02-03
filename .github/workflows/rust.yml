@@ -21,7 +21,7 @@ jobs:
       - name: Run tests
         run: cargo test --verbose
       - name: Upload File
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: compiled-file
           path: target/release
